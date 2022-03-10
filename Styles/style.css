@@ -1,0 +1,685 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    position: absolute;
+}
+
+.navbar{
+    width: auto;
+    margin: auto;
+    margin-left: 50px;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    margin-right: 48px;
+}
+
+#first {
+    text-decoration: none;
+    color: rgb(46, 77, 194);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-right: 200px;
+}
+
+#second {
+    color: rgb(119,126,136);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 520;
+}
+
+#thrid {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 520;
+    border-color:rgb(42, 73, 198);
+    background-color: rgb(42, 73, 198);
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    box-shadow: 0 10px 6px -6px rgb(42, 73, 198);
+}
+
+.sup_text {
+    width: 50%;
+    height: 20vh;
+    margin-left: 2cm;
+    margin-top: 10px;
+}
+
+.sup_title {
+    color: rgb(26, 66, 110);
+    font-weight: 800;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.top_image {
+    margin: 0;
+    padding: 0;
+    height: 25vh;
+    text-align: right;
+}
+
+.top-image-1 {
+    margin-top: -40px;
+    width: 800px;
+    height: auto;
+    margin-left: 300px;
+}
+
+.midle_text {
+    width: 20%;
+    margin-left: 2cm;
+}
+
+.texto_gris {
+    color: rgb(119,126,136);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.icons_front{
+    width: 25%;
+    height: 20px;
+    margin-left: 75px;
+    text-align: center;
+}
+
+.img-icon {
+    width: 20px;
+    height: auto;
+    display: inline-block;
+    background-color: #fffecd;
+    vertical-align: top;
+    box-shadow: 0 0 10px gold;
+}
+
+.down_icon{
+    display: inline-block;
+    margin-right: 30px;
+    color: rgb(26, 66, 110);
+    vertical-align: auto;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.esquema {
+    margin-top: 80px;
+    width: 50%;
+    position: absolute;
+    margin-left: 75px;
+    height: 140px;
+    display: inline-block;
+    background-color: #fff;
+    opacity: 0.95;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -6px #808080;
+}
+
+.img-icon-2-shadow{
+    width: 20px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+    background-color: rgb(238,242,254);
+    box-shadow: 0 8px 6px -6px #808080;
+}
+
+.img-icon-2{
+    width: 20px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+    background-color: rgb(238,242,254);
+}
+
+.esquema_text_up {
+    display: inline-block;
+    color: rgb(26, 66, 110);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box_esquema {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.texto_gris_box {
+    color: rgb(119,126,136);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.box_esquema_text{
+    color: rgb(26, 66, 110);
+    display: inline-block;
+    font-size: 100%;
+    margin-right: 15px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.box_esquema_icons{
+    width: auto;
+}
+.submit_box{
+    width: 20%;
+    height: 1cm;
+    margin-top: -20px;
+    margin-left: 50px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(42, 73, 198);
+    border-radius: 5px;
+    border-color:rgb(42, 73, 198);
+    border-style: none;
+    box-shadow: 0 8px 6px -6px rgb(42, 73, 198);
+}
+
+.logos_vacunas{
+    width: 90%;
+    margin-top: 250px;
+    height: 4cm;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.img_vaccines {
+    width: 180px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 80px;
+    margin-top: 60px;
+}
+
+.up-benefits {
+    margin-left: 80px;
+    width: 27%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.text-undervac{
+    color: rgb(26, 66, 110);
+    font-size: 25px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-undervac-2 {
+    color: rgb(119,126,136);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.benefits {
+    background-color: #fff;
+    width: 80%;
+    height: 50vh;
+    margin-left: 215px;
+}
+
+.bene-1 {
+    width: 18%;
+    height: 35vh;
+    margin-top: 2.5vh;
+    background-color: #fff;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.bene-1:hover {
+    box-shadow: 4px 10px 6px -6px #808080;
+}
+
+.bene-1-icon {
+    margin-bottom: 15px;
+    width: 40px;
+    background-color: rgb(238,242,254);
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.bene-1-title {
+    color: rgb(26, 66, 110);
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bene-1-text {
+    color: rgb(119,126,136);
+    margin-left: 12.2px;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.cinta-image-3 {
+    width: 100%;
+    height: 105vh;
+    position: relative;
+    display: inline-block;
+}
+
+.text-image3 {
+    width: 60%;
+    height: 160vh;
+    position: absolute;
+    margin-left: 48%;
+}
+
+.text-undervac-container {
+    width: 47%;
+    margin-top: 20px;
+}
+
+.cinta-plegable {
+    margin-top: 20px;
+}
+
+.cinta {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 38%;
+    height: 40px;
+    border-radius: 5px;
+    vertical-align: middle;
+    display: flex;
+    position:relative;
+}
+
+.cinta:hover {
+    box-shadow: 0 6px 6px -6px #444444;
+}
+
+.cinta:hover .cinta-icon{
+    box-shadow: 0 3px 6px -6px #444444;
+}
+
+.cinta:hover button{
+    box-shadow: 0 1px 6px -6px #808080;
+}
+
+.cinta-title {
+    margin-top: 7px;
+    margin-left: 10px;
+    display: inline-block;
+    color: rgb(26, 66, 110);
+    vertical-align: auto;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    font-size: medium;
+}
+
+.cinta-texto {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 38%;
+    height: 90px;
+    border-radius: 5px;
+    vertical-align: middle;
+    position:relative;
+}
+
+.cinta-texto:hover {
+    box-shadow: 0 6px 6px -6px #444444;
+}
+
+.cinta-texto:hover .cinta-icon{
+    box-shadow: 0 3px 6px -6px #444444;
+}
+
+.cinta-texto:hover button{
+    box-shadow: 0 1px 6px -6px #808080;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.cinta-icon {
+    margin-top: 4px;
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgb(238,242,254);
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.btn-container {
+    vertical-align: middle;
+    position: absolute;
+    margin-left: 265px;
+}
+
+.cinta-icon-2 {
+    width: 15px;
+    background-color: rgb(238,242,254);
+    border-radius: 5px;
+    border-color: transparent;
+    border-style: none;
+}
+
+.cinta-text-container {
+    width: 100%;
+}
+
+.cinta-text {
+    color: rgb(119,126,136);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: small;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.image-3 {
+    width: 40%;
+    height: 80vh;
+    position: absolute;
+}
+
+.image-3-1 {
+    width: 90%;
+    margin-top: 80px;
+}
+
+.emergency-container {
+    width: 50%;
+    margin-left: 80px;
+    height: 80vh;
+}
+
+.texto_gris-container {
+    margin-top: 30px;
+    width: 350px;
+}
+
+.section-1 {
+    width: 410px;
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.section-1-1 {
+    width: 190px;
+    border-radius: 5px;
+    margin-right: 40px;
+    box-shadow: 0 0 1px #808080;
+}
+
+.section-1-1:hover {
+    box-shadow: 0 0 2px #808080;
+}
+
+.section-1-1:hover img {
+    box-shadow: 0 6px 6px -6px #808080;
+}
+
+.section-2 {
+    width: 410px;
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.section-icon {
+    width: 50px;
+    vertical-align: middle;
+    background-color: rgb(238,242,254);
+    border-radius: 5px;
+    border-color: rgb(238,242,254);
+}
+
+.container-icons {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.next-to-icon {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.section-title {
+    text-align: left;
+    color: rgb(26, 66, 110);
+    font-size: 15px;
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-info {
+    font-size: 12px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-button {
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 145px;
+    color: rgb(26, 66, 110);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238,242,254);
+    border-radius: 5px;
+    border-color: rgb(238,242,254);
+    border-style: none;
+}
+
+.section-button:hover {
+    color: rgb(238,242,254);
+    background-color: rgb(42, 73, 198);
+    border-color: rgb(42, 73, 198);
+    box-shadow: 0 6px 6px -6px #808080;
+}
+
+.emergency-container-image {
+    display: flex;
+}
+
+.image-4-1 {
+    width: 450px;
+    margin-left: 101px;
+    margin-top: 50px;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(238,242,254);
+    margin-top: 130px;
+}
+
+.info {
+    width: 50%;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.info-2 {
+    display: flex;
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.info-title-blue {
+    color: rgb(26, 66, 110);
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-info {
+    color: rgb(119,126,136);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 20px;
+    
+}
+
+.info-info-terms {
+    color: rgb(119,126,136);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 20px;
+    width: 200px;
+    position: absolute;
+}
+
+.info-title {
+    color: rgb(26, 66, 110);
+    font-weight: 600;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-info-container {
+    width: 18%;
+    margin-top: 20px;
+}
+
+.about-company-support {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.sub-footer {
+    display: flex;
+    background-color: rgb(238,242,254);
+    height: 6.5vh;
+}
+
+.reserved {
+    width: 50%;
+    margin-left: 60px;
+}
+
+.terms {
+    width: 30%;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.triangle-1 {
+    background-color: transparent;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 28px;
+}
+
+.img-triangle-1 {
+    width: 90px;
+}
+
+.triangle-2 {
+    background-color: transparent;
+    position: absolute;
+    margin-left: 312.5px;
+    margin-top: 280px;
+}
+
+.img-triangle-2 {
+    width: 150px;
+}
+
+.triangle-3 {
+    background-color: transparent;
+    position: absolute;
+    margin-left: 1063px;
+    margin-top: -30px;
+}
+
+.img-triangle-3 {
+    width: 200px;
+}
+
+.triangle-4 {
+    background-color: transparent;
+    position: absolute;
+    margin-top: -30px;
+}
+
+.img-triangle-4 {
+    width: 100px;
+}
+
+.triangle-5 {
+    background-color: transparent;
+    position: absolute;
+    margin-left: 1113px;
+    margin-top: -99px;
+}
+
+.img-triangle-5 {
+    width: 150px;
+}
+
+.triangle-6 {
+    background-color: transparent;
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 950px;
+}
+
+.img-triangle-6 {
+    width: 100px;
+}
